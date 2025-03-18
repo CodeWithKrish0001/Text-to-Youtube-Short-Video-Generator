@@ -7,3 +7,5 @@ python-dotenv
 requests
 torch
 whisperx
+openai-whisper
+ffmpeg
