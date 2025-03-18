@@ -27,13 +27,22 @@ Clone the repository and install the required packages:
 pip install -r requirements.txt
 ```
 
+### Install FFmpeg
+FFmpeg is required for processing audio and video files. Install it using:
+- **Windows**: Download from [FFmpeg official site](https://ffmpeg.org/download.html) and add it to your system path.
+- **Linux/macOS**: Install via package manager:
+  ```sh
+  sudo apt install ffmpeg  # Debian/Ubuntu
+  brew install ffmpeg      # macOS
+  ```
+
 ## Usage
 
 ### 1. Set Up API Keys
 Create a `.env` file in the project root and add the following:
 ```
 GEMINI_API_KEY=your_gemini_api_key
-AssistantVoice=your_preferred_voice
+AssistantVoice=en-CA-LiamNeural # or your preffered voice
 ```
 
 ### 2. Run the Video Creation Pipeline
@@ -66,7 +75,7 @@ You will be prompted to enter a topic, and the system will generate the video au
 - `python-dotenv` (Environment variables)
 - `requests` (Downloading AI-generated images)
 - `torch` (AI processing)
-- `whisper` & `whisperx` (Audio transcription)
+- `openai-whisper` & `whisperx` (Audio transcription)
 
 ## Contribution
 Feel free to fork this project, submit issues, or create pull requests!
