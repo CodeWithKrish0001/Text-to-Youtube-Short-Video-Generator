@@ -1,0 +1,9 @@
+edge-tts
+google-generativeai
+moviepy
+numpy
+Pillow
+python-dotenv
+requests
+torch
+whisperx
