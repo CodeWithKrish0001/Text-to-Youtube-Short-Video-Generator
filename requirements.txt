@@ -1,6 +1,6 @@
 edge-tts
 google-generativeai
-moviepy
+moviepy==1.0.3
 numpy
 Pillow
 python-dotenv
